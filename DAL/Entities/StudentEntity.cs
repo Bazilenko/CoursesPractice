@@ -13,6 +13,8 @@ namespace DAL.Entities
         public string Email { get; set; }
 
         public ICollection<EnrollmentEntity> Enrollments { get; set; }
+        public ICollection<AttendanceEntity> Attendances { get; set; }
+        public ICollection<SubmissionEntity> Submissions { get; set; }
 
     }
 }

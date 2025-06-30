@@ -14,7 +14,5 @@ namespace DAL.Entities
         public StudentEntity Student { get; set; }
         public int CourseId { get; set; }
         public CourseEntity Course { get; set; }
-
-        public ICollection<EnrollmentEntity> Enrollments { get; set; }
     }
 }

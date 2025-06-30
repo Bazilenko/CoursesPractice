@@ -10,7 +10,7 @@ namespace DAL.Entities
     {
         public int Id { get; set; }
         public DateTime SubmittedAt {  get; set; }
-        public string grade {  get; set; }
+        public string Grade {  get; set; }
         public int AssignmentId { get; set; }
         public AssignmentEntity Assignment { get; set; }
         public int StudentId { get; set; }
