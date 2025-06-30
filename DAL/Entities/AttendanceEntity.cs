@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace DAL.Entities
 {
-    public class Attendance
+    public class AttendanceEntity
     {
         public int Id { get; set; }
         public string Status { get; set; }
         public int LessonId { get; set; }
-        public Lesson Lesson { get; set; }
+        public LessonEntity Lesson { get; set; }
         public int StudentId { get; set; }
-        public Student Student { get; set; }
+        public StudentEntity Student { get; set; }
 
     }
 }

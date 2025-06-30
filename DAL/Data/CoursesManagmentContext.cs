@@ -10,15 +10,15 @@ namespace DAL.Data
 
         }
         public CoursesManagmentContext(DbContextOptions<CoursesManagmentContext> options) : base(options) { }
-        public virtual DbSet<User> Users { get; set; } = null!;
-        public virtual DbSet<Assignment> Assignment { get; set; } = null!;
-        public virtual DbSet<Attendance> Attendances { get; set; } = null!;
-        public virtual DbSet<Course> Courses { get; set; } = null!;
-        public virtual DbSet<Enrollment> Enrollments { get; set; } = null!;
-        public virtual DbSet<Lesson> Lessons { get; set; } = null!;
-        public virtual DbSet<Student> Students { get; set; } = null!;
-        public virtual DbSet<Submission> Submissions { get; set; } = null!;
-        public virtual DbSet<Teacher> Teachers { get; set; } = null!;
+        public virtual DbSet<UserEntity> Users { get; set; } = null!;
+        public virtual DbSet<AssignmentEntity> Assignment { get; set; } = null!;
+        public virtual DbSet<AttendanceEntity> Attendances { get; set; } = null!;
+        public virtual DbSet<CourseEntity> Courses { get; set; } = null!;
+        public virtual DbSet<EnrollmentEntity> Enrollments { get; set; } = null!;
+        public virtual DbSet<LessonEntity> Lessons { get; set; } = null!;
+        public virtual DbSet<StudentEntity> Students { get; set; } = null!;
+        public virtual DbSet<SubmissionEntity> Submissions { get; set; } = null!;
+        public virtual DbSet<TeacherEntity> Teachers { get; set; } = null!;
 
 
     }

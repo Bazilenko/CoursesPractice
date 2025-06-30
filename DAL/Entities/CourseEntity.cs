@@ -8,6 +8,7 @@
         public string Level { get; set; } = string.Empty;
         public decimal Price { get; set; } = decimal.Zero;
         public int QuantityOfLessons { get; set; }
+        public decimal Discount {  get; set; } = decimal.Zero;
 
         public ICollection<LessonEntity> Lessons { get; set; }
         public ICollection<EnrollmentEntity> Enrollments { get; set; }

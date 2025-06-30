@@ -3,3 +3,11 @@ C:\Users\Vasyl\source\repos\CoursesWeb\DAL\obj\Debug\net8.0\DAL.GeneratedMSBuild
 C:\Users\Vasyl\source\repos\CoursesWeb\DAL\obj\Debug\net8.0\DAL.AssemblyInfoInputs.cache
 C:\Users\Vasyl\source\repos\CoursesWeb\DAL\obj\Debug\net8.0\DAL.AssemblyInfo.cs
 C:\Users\Vasyl\source\repos\CoursesWeb\DAL\obj\Debug\net8.0\DAL.csproj.CoreCompileInputs.cache
+C:\Users\Vasyl\source\repos\CoursesWeb\DAL\obj\Debug\net8.0\DAL.sourcelink.json
+C:\Users\Vasyl\source\repos\CoursesWeb\DAL\bin\Debug\net8.0\DAL.deps.json
+C:\Users\Vasyl\source\repos\CoursesWeb\DAL\bin\Debug\net8.0\DAL.dll
+C:\Users\Vasyl\source\repos\CoursesWeb\DAL\bin\Debug\net8.0\DAL.pdb
+C:\Users\Vasyl\source\repos\CoursesWeb\DAL\obj\Debug\net8.0\DAL.dll
+C:\Users\Vasyl\source\repos\CoursesWeb\DAL\obj\Debug\net8.0\refint\DAL.dll
+C:\Users\Vasyl\source\repos\CoursesWeb\DAL\obj\Debug\net8.0\DAL.pdb
+C:\Users\Vasyl\source\repos\CoursesWeb\DAL\obj\Debug\net8.0\ref\DAL.dll

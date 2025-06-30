@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DAL.Entities
 {
-    public class Lesson
+    public class LessonEntity
     {
         public int Id { get; set; }
         public string Tittle { get; set; }
@@ -18,7 +18,7 @@ namespace DAL.Entities
         public int CourseId { get; set; }
         public CourseEntity Course { get; set; }
         public int TeacherId { get; set; }
-        public Teacher Teacher { get; set; }
+        public TeacherEntity Teacher { get; set; }
 
     }
 }

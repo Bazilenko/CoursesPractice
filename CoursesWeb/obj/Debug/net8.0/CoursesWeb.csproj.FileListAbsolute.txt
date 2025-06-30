@@ -34,3 +34,4 @@ C:\Users\Vasyl\source\repos\CoursesWeb\CoursesWeb\obj\Debug\net8.0\refint\Course
 C:\Users\Vasyl\source\repos\CoursesWeb\CoursesWeb\obj\Debug\net8.0\CoursesWeb.pdb
 C:\Users\Vasyl\source\repos\CoursesWeb\CoursesWeb\obj\Debug\net8.0\CoursesWeb.genruntimeconfig.cache
 C:\Users\Vasyl\source\repos\CoursesWeb\CoursesWeb\obj\Debug\net8.0\ref\CoursesWeb.dll
+C:\Users\Vasyl\source\repos\CoursesWeb\CoursesWeb\obj\Debug\net8.0\CoursesWeb.sourcelink.json
