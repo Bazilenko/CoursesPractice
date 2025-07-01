@@ -2,9 +2,9 @@
 
 namespace CoursesWeb.Repositories.Contracts
 {
-    public interface ILessonRepository : IGenericRepository<LessonEntity>
+    public interface ILessonRepository : IEnrollmentRepository<LessonEntity>
     {
-        Task<IEnumerable<LessonEntity>> GetByCourseIdAsync();
+        Task<IEnumerable<LessonEntity>> GetByCourseIdAsync(int id);
         Task<LessonEntity?> GetByTittleAsync(string tittle);
     }
 }

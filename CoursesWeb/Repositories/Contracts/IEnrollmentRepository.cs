@@ -2,7 +2,7 @@
 
 namespace CoursesWeb.Repositories.Contracts
 {
-    public interface IEnrollmentRepository : IGenericRepository<EnrollmentEntity>
+    public interface IEnrollmentRepository : IEnrollmentRepository<EnrollmentEntity>
     {
         Task<IEnumerable<EnrollmentEntity>> GetByStudentIdAsync(int id);
     }

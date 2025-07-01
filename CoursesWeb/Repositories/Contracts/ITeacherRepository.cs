@@ -2,7 +2,7 @@
 
 namespace CoursesWeb.Repositories.Contracts
 {
-    public interface ITeacherRepository : IGenericRepository<TeacherEntity>
+    public interface ITeacherRepository : IEnrollmentRepository<TeacherEntity>
     {
         Task<IEnumerable<TeacherEntity?>> GetByNationality(string nationality);
         Task<TeacherEntity?> GetByEmail(string email);
