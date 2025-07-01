@@ -1,0 +1,15 @@
+C:\Users\Vasyl\source\repos\coursesweb\dal\bin\Debug\net8.0\CoursesWeb.DAL.deps.json
+C:\Users\Vasyl\source\repos\coursesweb\dal\bin\Debug\net8.0\CoursesWeb.DAL.runtimeconfig.json
+C:\Users\Vasyl\source\repos\coursesweb\dal\bin\Debug\net8.0\CoursesWeb.DAL.dll
+C:\Users\Vasyl\source\repos\coursesweb\dal\bin\Debug\net8.0\CoursesWeb.DAL.pdb
+C:\Users\Vasyl\source\repos\coursesweb\dal\obj\Debug\net8.0\CoursesWeb.DAL.csproj.AssemblyReference.cache
+C:\Users\Vasyl\source\repos\coursesweb\dal\obj\Debug\net8.0\CoursesWeb.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vasyl\source\repos\coursesweb\dal\obj\Debug\net8.0\CoursesWeb.DAL.AssemblyInfoInputs.cache
+C:\Users\Vasyl\source\repos\coursesweb\dal\obj\Debug\net8.0\CoursesWeb.DAL.AssemblyInfo.cs
+C:\Users\Vasyl\source\repos\coursesweb\dal\obj\Debug\net8.0\CoursesWeb.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Vasyl\source\repos\coursesweb\dal\obj\Debug\net8.0\CoursesWeb.DAL.sourcelink.json
+C:\Users\Vasyl\source\repos\coursesweb\dal\obj\Debug\net8.0\CoursesWeb.DAL.dll
+C:\Users\Vasyl\source\repos\coursesweb\dal\obj\Debug\net8.0\refint\CoursesWeb.DAL.dll
+C:\Users\Vasyl\source\repos\coursesweb\dal\obj\Debug\net8.0\CoursesWeb.DAL.pdb
+C:\Users\Vasyl\source\repos\coursesweb\dal\obj\Debug\net8.0\CoursesWeb.DAL.genruntimeconfig.cache
+C:\Users\Vasyl\source\repos\coursesweb\dal\obj\Debug\net8.0\ref\CoursesWeb.DAL.dll
