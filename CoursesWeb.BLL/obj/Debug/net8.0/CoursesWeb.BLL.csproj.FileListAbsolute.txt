@@ -1,0 +1,16 @@
+C:\Users\Vasyl\source\repos\CoursesWeb\CoursesWeb.BLL\obj\Debug\net8.0\CoursesWeb.BLL.csproj.AssemblyReference.cache
+C:\Users\Vasyl\source\repos\CoursesWeb\CoursesWeb.BLL\obj\Debug\net8.0\CoursesWeb.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vasyl\source\repos\CoursesWeb\CoursesWeb.BLL\obj\Debug\net8.0\CoursesWeb.BLL.AssemblyInfoInputs.cache
+C:\Users\Vasyl\source\repos\CoursesWeb\CoursesWeb.BLL\obj\Debug\net8.0\CoursesWeb.BLL.AssemblyInfo.cs
+C:\Users\Vasyl\source\repos\CoursesWeb\CoursesWeb.BLL\obj\Debug\net8.0\CoursesWeb.BLL.csproj.CoreCompileInputs.cache
+C:\Users\Vasyl\source\repos\CoursesWeb\CoursesWeb.BLL\obj\Debug\net8.0\CoursesWeb.BLL.sourcelink.json
+C:\Users\Vasyl\source\repos\CoursesWeb\CoursesWeb.BLL\bin\Debug\net8.0\CoursesWeb.BLL.deps.json
+C:\Users\Vasyl\source\repos\CoursesWeb\CoursesWeb.BLL\bin\Debug\net8.0\CoursesWeb.BLL.dll
+C:\Users\Vasyl\source\repos\CoursesWeb\CoursesWeb.BLL\bin\Debug\net8.0\CoursesWeb.BLL.pdb
+C:\Users\Vasyl\source\repos\CoursesWeb\CoursesWeb.BLL\bin\Debug\net8.0\CoursesWeb.DAL.dll
+C:\Users\Vasyl\source\repos\CoursesWeb\CoursesWeb.BLL\bin\Debug\net8.0\CoursesWeb.DAL.pdb
+C:\Users\Vasyl\source\repos\CoursesWeb\CoursesWeb.BLL\obj\Debug\net8.0\CoursesW.185C9589.Up2Date
+C:\Users\Vasyl\source\repos\CoursesWeb\CoursesWeb.BLL\obj\Debug\net8.0\CoursesWeb.BLL.dll
+C:\Users\Vasyl\source\repos\CoursesWeb\CoursesWeb.BLL\obj\Debug\net8.0\refint\CoursesWeb.BLL.dll
+C:\Users\Vasyl\source\repos\CoursesWeb\CoursesWeb.BLL\obj\Debug\net8.0\CoursesWeb.BLL.pdb
+C:\Users\Vasyl\source\repos\CoursesWeb\CoursesWeb.BLL\obj\Debug\net8.0\ref\CoursesWeb.BLL.dll

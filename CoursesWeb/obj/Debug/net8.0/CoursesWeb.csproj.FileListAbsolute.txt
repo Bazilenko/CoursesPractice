@@ -143,3 +143,6 @@ C:\Users\Vasyl\source\repos\CoursesWeb\CoursesWeb\bin\Debug\net8.0\CoursesWeb.DA
 C:\Users\Vasyl\source\repos\CoursesWeb\CoursesWeb\bin\Debug\net8.0\Bogus.dll
 C:\Users\Vasyl\source\repos\CoursesWeb\CoursesWeb\bin\Debug\net8.0\System.Linq.Dynamic.Core.dll
 C:\Users\Vasyl\source\repos\CoursesWeb\CoursesWeb\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Vasyl\source\repos\CoursesWeb\CoursesWeb\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\Vasyl\source\repos\CoursesWeb\CoursesWeb\bin\Debug\net8.0\CoursesWeb.BLL.dll
+C:\Users\Vasyl\source\repos\CoursesWeb\CoursesWeb\bin\Debug\net8.0\CoursesWeb.BLL.pdb

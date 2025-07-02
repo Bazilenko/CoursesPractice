@@ -1,6 +1,9 @@
 using DAL.Data;
 using Microsoft.EntityFrameworkCore;
 using CoursesWeb.Data.BogusSeed;
+using CoursesWeb.Repositories.Contracts;
+using CoursesWeb.UOW.Contract;
+using CoursesWeb.UOW;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<CoursesManagmentContext>(options =>
@@ -15,13 +18,26 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+
+builder.Services.AddScoped<ITeacherRepository, ITeacherRepository>();
+builder.Services.AddScoped<IAssignmentRepository, IAssignmentRepository>();
+builder.Services.AddScoped<IAttendanceRepository, IAttendanceRepository>();
+builder.Services.AddScoped<ICourseRepository, ICourseRepository>();
+builder.Services.AddScoped<ISubmissionRepository, ISubmissionRepository>();
+builder.Services.AddScoped<IStudentRepository, IStudentRepository>();
+builder.Services.AddScoped<ILessonRepository, ILessonRepository>();
+builder.Services.AddScoped<IEnrollmentRepository, IEnrollmentRepository>();
+
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 var app = builder.Build();
 
-using (var scope = app.Services.CreateScope())
-{
-    var context = scope.ServiceProvider.GetRequiredService<CoursesManagmentContext>();
-    await DbSeeder.SeedAsync(context);
-}
+//Bogus
+
+//using (var scope = app.Services.CreateScope())
+//{
+//   var context = scope.ServiceProvider.GetRequiredService<CoursesManagmentContext>();
+//    await DbSeeder.SeedAsync(context);
+//}
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
