@@ -1,11 +1,13 @@
 using DAL.Data;
 using Microsoft.EntityFrameworkCore;
+using CoursesWeb.Data.BogusSeed;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<CoursesManagmentContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("ConnectionString")));
 
 // Add services to the container.   
+
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

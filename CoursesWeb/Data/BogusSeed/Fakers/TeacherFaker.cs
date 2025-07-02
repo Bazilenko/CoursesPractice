@@ -8,6 +8,7 @@ namespace CoursesWeb.Data.BogusSeed.Fakers
            
             RuleFor(t => t.FirstName, t => t.Person.FirstName);
             RuleFor(t => t.LastName, t => t.Person.LastName);
+            RuleFor(t => t.MiddleName, f => f.Random.Bool() ? f.Person.FullName : null);
             RuleFor(t => t.PhotoUrl, t => t.Person.Avatar);
             RuleFor(t => t.Email, f => f.Internet.Email());
             RuleFor(t => t.Bio, f => f.Lorem.Sentence(10));
