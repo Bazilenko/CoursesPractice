@@ -150,3 +150,6 @@ C:\Users\Vasyl\source\repos\CoursesWeb\CoursesWeb\bin\Debug\net8.0\AutoMapper.Ex
 C:\Users\Vasyl\source\repos\CoursesWeb\CoursesWeb\bin\Debug\net8.0\Mapster.dll
 C:\Users\Vasyl\source\repos\CoursesWeb\CoursesWeb\bin\Debug\net8.0\Mapster.Core.dll
 C:\Users\Vasyl\source\repos\CoursesWeb\CoursesWeb\bin\Debug\net8.0\Mapster.DependencyInjection.dll
+C:\Users\Vasyl\source\repos\CoursesWeb\CoursesWeb\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\Vasyl\source\repos\CoursesWeb\CoursesWeb\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+C:\Users\Vasyl\source\repos\CoursesWeb\CoursesWeb\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll

@@ -24,7 +24,7 @@ namespace CoursesWeb.Services
             _repository = repository;
             _mapper = mapper;
         }
-        public async Task<TeacherMiniResponseDTO> CreateAsync(TeacherCreateReqDTO dto, CancellationToken cancellationToken = default)
+        public async Task<TeacherCreateReqDTO> CreateAsync(TeacherCreateReqDTO dto, CancellationToken cancellationToken = default)
         {
             try
             {
@@ -37,7 +37,7 @@ namespace CoursesWeb.Services
                 await _unitOfWork.CommitTransactionAsync(cancellationToken);
 
                 // Entity → DTO
-                var responseDto = teacherEntity.Adapt<TeacherMiniResponseDTO>();
+                var responseDto = teacherEntity.Adapt<TeacherCreateReqDTO>();
                 return responseDto;
             }
             catch (Exception ex)
@@ -74,13 +74,13 @@ namespace CoursesWeb.Services
             return dtoList;
         }
 
-        public async Task<TeacherMiniResponseDTO> GetByIdAsync(int id)
+        public async Task<TeacherCreateReqDTO> GetByIdAsync(int id)
         {
             var teacher = await _unitOfWork.Teachers.GetByIdAsync(id);
             if (teacher == null)
                 throw new NotFoundException($"Teacher with id {id} not found!");
 
-            return teacher.Adapt<TeacherMiniResponseDTO>();
+            return teacher.Adapt<TeacherCreateReqDTO>();
             
         }
 

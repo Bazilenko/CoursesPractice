@@ -35,7 +35,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "CoursesWeb.DTOs.Response.TeacherMiniResponseDTO",
+        "Type": "CoursesWeb.DTOs.Request.TeacherEntity.TeacherCreateReqDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -92,7 +92,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "CoursesWeb.DTOs.Response.TeacherMiniResponseDTO",
+        "Type": "CoursesWeb.DTOs.Request.Teacher.TeacherUpdateReqDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",

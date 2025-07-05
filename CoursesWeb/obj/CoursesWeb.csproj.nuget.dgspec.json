@@ -58,6 +58,10 @@
               "target": "Package",
               "version": "[15.0.0, )"
             },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
             "Mapster": {
               "target": "Package",
               "version": "[7.4.0, )"
@@ -147,6 +151,14 @@
             "Bogus": {
               "target": "Package",
               "version": "[35.6.3, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.1, )"
             },
             "Mapster": {
               "target": "Package",

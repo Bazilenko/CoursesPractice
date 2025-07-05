@@ -22,6 +22,10 @@ namespace CoursesWeb.Controllers
         public async Task<ActionResult<IEnumerable<TeacherMiniResponseDTO>>> GetAll()
         {
             var teachers = await _teacherService.GetAllAsync();
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
             return Ok(teachers);
         }
 
@@ -35,7 +39,7 @@ namespace CoursesWeb.Controllers
 
         // POST: api/teachers
         [HttpPost]
-        public async Task<ActionResult<TeacherMiniResponseDTO>> Create([FromBody] TeacherCreateReqDTO dto, CancellationToken cancellationToken)
+        public async Task<ActionResult<TeacherCreateReqDTO>> Create([FromBody] TeacherCreateReqDTO dto, CancellationToken cancellationToken)
         {
             var createdTeacher = await _teacherService.CreateAsync(dto, cancellationToken);
             // Повертаємо 201 Created + лінк на новий ресурс
@@ -44,7 +48,7 @@ namespace CoursesWeb.Controllers
 
         // PUT: api/teachers/5
         [HttpPut("{id}")]
-        public async Task<ActionResult<TeacherMiniResponseDTO>> Update(int id, [FromBody] TeacherUpdateReqDTO dto, CancellationToken cancellationToken)
+        public async Task<ActionResult<TeacherUpdateReqDTO>> Update(int id, [FromBody] TeacherUpdateReqDTO dto, CancellationToken cancellationToken)
         {
             var updatedTeacher = await _teacherService.UpdateAsync(id, dto, cancellationToken);
             return Ok(updatedTeacher);

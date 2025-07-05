@@ -9,7 +9,9 @@ using CoursesWeb.Services.Contracts;
 using CoursesWeb.Services;
 using MapsterMapper;
 using Mapster;
-
+using FluentValidation.AspNetCore;
+using CoursesWeb.DTOs.Request.TeacherEntity;
+using CoursesWeb.BLL.FluentValidation;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -44,6 +46,13 @@ var config = TypeAdapterConfig.GlobalSettings;
 new Mapping().Register(config);
 
 builder.Services.AddScoped<ITeacherService, TeachersService>();
+
+builder.Services
+    .AddControllers()
+    .AddFluentValidation(fv =>
+    {
+        fv.RegisterValidatorsFromAssemblyContaining<TeacherCreateDTOValidator>();
+    });
 
 var app = builder.Build();
 
