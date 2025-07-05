@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 namespace CoursesWeb.Repositories
 {
     using Microsoft.EntityFrameworkCore;
-    public abstract class GenericRepository<TEntity> : IEnrollmentRepository<TEntity> where TEntity : class
+    public abstract class GenericRepository<TEntity> : IGenericRepository<TEntity> where TEntity : class
     {
         protected readonly CoursesManagmentContext _context;
         protected readonly DbSet<TEntity> table;
@@ -60,6 +60,15 @@ namespace CoursesWeb.Repositories
             if(entity == null)
             throw new ArgumentNullException(nameof(entity) + " can't be null!");
             await Task.Run(() => table.Update(entity));
+        }
+        public virtual async Task AddRangeAsync(IEnumerable<TEntity> entities)
+        {
+            if (entities == null || !entities.Any())
+            {
+                throw new ArgumentNullException(nameof(entities), "The entity collection cannot be null or empty.");
+            }
+
+            await table.AddRangeAsync(entities);
         }
     }
 }

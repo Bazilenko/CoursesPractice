@@ -146,3 +146,7 @@ C:\Users\Vasyl\source\repos\CoursesWeb\CoursesWeb\obj\Debug\net8.0\staticwebasse
 C:\Users\Vasyl\source\repos\CoursesWeb\CoursesWeb\bin\Debug\net8.0\AutoMapper.dll
 C:\Users\Vasyl\source\repos\CoursesWeb\CoursesWeb\bin\Debug\net8.0\CoursesWeb.BLL.dll
 C:\Users\Vasyl\source\repos\CoursesWeb\CoursesWeb\bin\Debug\net8.0\CoursesWeb.BLL.pdb
+C:\Users\Vasyl\source\repos\CoursesWeb\CoursesWeb\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Vasyl\source\repos\CoursesWeb\CoursesWeb\bin\Debug\net8.0\Mapster.dll
+C:\Users\Vasyl\source\repos\CoursesWeb\CoursesWeb\bin\Debug\net8.0\Mapster.Core.dll
+C:\Users\Vasyl\source\repos\CoursesWeb\CoursesWeb\bin\Debug\net8.0\Mapster.DependencyInjection.dll

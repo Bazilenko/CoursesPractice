@@ -2,7 +2,7 @@
 
 namespace CoursesWeb.Repositories.Contracts
 {
-    public interface ICourseRepository : IEnrollmentRepository<CourseEntity>
+    public interface ICourseRepository : IGenericRepository<CourseEntity>
     {
         Task<CourseEntity?> GetByTittleAsync(string tittle);
         Task<IEnumerable<CourseEntity?>> GetByLevelAsync(string level);

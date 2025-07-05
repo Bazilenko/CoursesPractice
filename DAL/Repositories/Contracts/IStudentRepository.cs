@@ -2,7 +2,7 @@
 
 namespace CoursesWeb.Repositories.Contracts
 {
-    public interface IStudentRepository : IEnrollmentRepository<StudentEntity>
+    public interface IStudentRepository : IGenericRepository<StudentEntity>
     {
         Task<StudentEntity> GetByEmailAsync(string email);
         Task<IEnumerable<StudentEntity>> GetByNameAsync(string name);

@@ -2,7 +2,7 @@
 
 namespace CoursesWeb.Repositories.Contracts
 {
-    public interface ISubmissionRepository : IEnrollmentRepository<SubmissionEntity>
+    public interface ISubmissionRepository : IGenericRepository<SubmissionEntity>
     {
         Task<IEnumerable<SubmissionEntity>> GetByAssignmentIdAsync(int id);
     }

@@ -4,6 +4,13 @@ using CoursesWeb.Data.BogusSeed;
 using CoursesWeb.Repositories.Contracts;
 using CoursesWeb.UOW.Contract;
 using CoursesWeb.UOW;
+using CoursesWeb.Repositories;
+using CoursesWeb.Services.Contracts;
+using CoursesWeb.Services;
+using MapsterMapper;
+using Mapster;
+
+
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<CoursesManagmentContext>(options =>
@@ -19,24 +26,32 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 
-builder.Services.AddScoped<ITeacherRepository, ITeacherRepository>();
-builder.Services.AddScoped<IAssignmentRepository, IAssignmentRepository>();
-builder.Services.AddScoped<IAttendanceRepository, IAttendanceRepository>();
-builder.Services.AddScoped<ICourseRepository, ICourseRepository>();
-builder.Services.AddScoped<ISubmissionRepository, ISubmissionRepository>();
-builder.Services.AddScoped<IStudentRepository, IStudentRepository>();
-builder.Services.AddScoped<ILessonRepository, ILessonRepository>();
-builder.Services.AddScoped<IEnrollmentRepository, IEnrollmentRepository>();
+builder.Services.AddScoped<ITeacherRepository, TeacherRepository>();
+builder.Services.AddScoped<IAssignmentRepository, AssignmentRepository>();
+builder.Services.AddScoped<IAttendanceRepository, AttendanceRepository>();
+builder.Services.AddScoped<ICourseRepository, CourseRepository>();
+builder.Services.AddScoped<ISubmissionRepository, SubmissionRepository>();
+builder.Services.AddScoped<IStudentRepository, StudentRepository>();
+builder.Services.AddScoped<ILessonRepository, LessonRepository>();
+builder.Services.AddScoped<IEnrollmentRepository, EnrollmentRepository>();
 
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+
+builder.Services.AddSingleton(TypeAdapterConfig.GlobalSettings);
+builder.Services.AddScoped<IMapper, ServiceMapper>();
+
+var config = TypeAdapterConfig.GlobalSettings;
+new Mapping().Register(config);
+
+builder.Services.AddScoped<ITeacherService, TeachersService>();
+
 var app = builder.Build();
 
 //Bogus
-
 //using (var scope = app.Services.CreateScope())
 //{
-//   var context = scope.ServiceProvider.GetRequiredService<CoursesManagmentContext>();
-//    await DbSeeder.SeedAsync(context);
+//    var unitOfWork = scope.ServiceProvider.GetRequiredService<IUnitOfWork>();
+//    await DbSeeder.SeedAsync(unitOfWork);
 //}
 
 // Configure the HTTP request pipeline.
