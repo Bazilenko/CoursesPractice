@@ -10,6 +10,7 @@ using CoursesWeb.DTOs.Request.Teacher;
 using CoursesWeb.DTOs.Request.TeacherEntity;
 using CoursesWeb.DTOs.Response;
 using DAL.Entities;
+using CoursesWeb.BLL.DTOs.Response;
 
 public class Mapping : IRegister
     {
@@ -20,6 +21,7 @@ public class Mapping : IRegister
         config.NewConfig<TeacherCreateReqDTO, TeacherEntity>();
         config.NewConfig<TeacherUpdateReqDTO, TeacherEntity>();
         config.NewConfig<TeacherEntity, TeacherMiniResponseDTO>();
+        config.NewConfig<AttendanceEntity, AttendanceWithStudentResponseDTO>();
     }
 }
 

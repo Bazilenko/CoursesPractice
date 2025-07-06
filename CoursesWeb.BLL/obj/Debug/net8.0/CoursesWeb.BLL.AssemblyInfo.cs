@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CoursesWeb.BLL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b048a8a1e44f4e2bdd2a8b959e9dedd86cbda05e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6c3b342e5fcf0daa926885a81c4ee6f073ded514")]
 [assembly: System.Reflection.AssemblyProductAttribute("CoursesWeb.BLL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CoursesWeb.BLL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

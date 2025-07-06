@@ -5,9 +5,11 @@ using Microsoft.EntityFrameworkCore;
 
 namespace CoursesWeb.Repositories
 {
-    public class EnrollmentRepository :  GenericRepository<EnrollmentEntity>, IEnrollmentRepository
+    public class EnrollmentRepository : GenericRepository<EnrollmentEntity>, IEnrollmentRepository
     {
         public EnrollmentRepository(CoursesManagmentContext dbContext) : base(dbContext){ }
+
+       
 
         public async Task<IEnumerable<EnrollmentEntity>> GetByStudentIdAsync(int id)
         {

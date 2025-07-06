@@ -15,14 +15,12 @@ namespace CoursesWeb.Services
     public class TeachersService : ITeacherService
     {
         private readonly IUnitOfWork _unitOfWork;
-        private readonly ITeacherRepository _repository;
-        private readonly IMapper _mapper;
+       
+        
 
-        public TeachersService(IUnitOfWork unitOfWork, ITeacherRepository repository, IMapper mapper = null)
+        public TeachersService(IUnitOfWork unitOfWork)
         {
-            _unitOfWork = unitOfWork;
-            _repository = repository;
-            _mapper = mapper;
+            _unitOfWork = unitOfWork;       
         }
         public async Task<TeacherCreateReqDTO> CreateAsync(TeacherCreateReqDTO dto, CancellationToken cancellationToken = default)
         {

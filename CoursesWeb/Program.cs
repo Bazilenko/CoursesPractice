@@ -11,6 +11,7 @@ using MapsterMapper;
 using Mapster;
 using FluentValidation.AspNetCore;
 using CoursesWeb.DTOs.Request.TeacherEntity;
+using CoursesWeb.BLL.Services;
 using CoursesWeb.BLL.FluentValidation;
 
 
@@ -46,6 +47,7 @@ var config = TypeAdapterConfig.GlobalSettings;
 new Mapping().Register(config);
 
 builder.Services.AddScoped<ITeacherService, TeachersService>();
+builder.Services.AddScoped<IAttendanceService, AttendanceService>();
 
 builder.Services
     .AddControllers()
